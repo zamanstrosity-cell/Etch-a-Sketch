@@ -31,12 +31,15 @@ button {
 #header {
     text-align: left;
     grid-area: "header";
+    font-size: 15px;
+    align-self: center;
 }
 
 .sketch-container {
     text-align: center;
     grid-area: "grid";
-    margin: 0 auto auto auto;
+    margin-top: 0;
+    margin-left: 60px;
     display: grid;
     background-color: antiquewhite;
     height: 600px;
