@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Geostar+Fill&display=swap');
+
+
+h1 {
+    font-family: 'Geostar Fill', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+body {
+    box-sizing: fill;
+    background: linear-gradient(to bottom right, #aeb3bf, #e1e6f0);
+    display : grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "header grid grid grid grid";
+    max-height: 100%;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Bungee', sans-serif;
+    font-size: 10px;
+    
+}
+
+#header {
+    text-align: left;
+    grid-area: "header";
+}
+
+.sketch-container {
+    text-align: center;
+    grid-area: "grid";
+    margin: 0 auto auto auto;
+    display: grid;
+    background-color: antiquewhite;
+    height: 600px;
+    width: 1100px;
+
+}
+
+.cell {
+    background-color: rgba(255,255,255, 0.8);
+    border: 0.1px solid rgb(194, 194, 250);
+    padding: auto;
+}
